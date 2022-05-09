@@ -18,6 +18,7 @@
   "devDependencies": {
     "@parcel/transformer-pug": "2.5.0",
     "@parcel/transformer-sass": "2.5.0",
+    "node-actionlint": "1.2.2",
     "npm-run-all": "4.1.5",
     "parcel": "2.5.0",
     "parcel-transformer-ogimage": "1.0.1",
