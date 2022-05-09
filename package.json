@@ -12,6 +12,7 @@
     "fix:prettier": "prettier --write .",
     "fix:prettier-package-json": "prettier-package-json --write",
     "lint": "run-s -c lint:*",
+    "lint:actionlint": "node-actionlint",
     "lint:prettier": "prettier --check .",
     "lint:prettier-package-json": "prettier-package-json -l"
   },
