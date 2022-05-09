@@ -4,8 +4,9 @@
   "description": "",
   "license": "UNLICENSED",
   "author": "ofk",
-  "main": "index.js",
   "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "parcel build --no-source-maps --public-url='./' 'src/**/!(_)*.{html,pug}'",
     "dev": "parcel serve 'src/**/!(_)*.{html,pug}'",
     "fix": "run-s -c fix:*",
     "fix:prettier": "prettier --write .",
